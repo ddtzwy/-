@@ -1,0 +1,2517 @@
+{
+    "action": [
+        {
+            "action_type": "SET_VARIABLE", 
+            "args_list": [
+                {
+                    "arg_type": 100030, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "INTEGER", 
+                                "GLOBAL_BAG_MAX_NUM"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100002, 
+                    "args_list": [
+                        180
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1434706002000002, 
+            "enable": true
+        }, 
+        {
+            "action_type": "SET_VARIABLE", 
+            "args_list": [
+                {
+                    "arg_type": 100030, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "TABLE", 
+                                "UI_Manager"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100011, 
+                    "args_list": [], 
+                    "sub_type": "GET_NEW_TABLE"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1434706002000003, 
+            "enable": true
+        }, 
+        {
+            "action_type": "SET_TABLE_VALUE_1D", 
+            "args_list": [
+                {
+                    "arg_type": 100011, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "TABLE", 
+                                "UI_Manager"
+                            ]
+                        }
+                    ], 
+                    "sub_type": "VARIABLE"
+                }, 
+                {
+                    "arg_type": 100003, 
+                    "args_list": [
+                        "SelectSingleUnitShow"
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100011, 
+                    "args_list": [], 
+                    "sub_type": "GET_NEW_TABLE"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1434706002000004, 
+            "enable": true
+        }, 
+        {
+            "action_type": "INSERT_TABLE_VALUE", 
+            "args_list": [
+                {
+                    "arg_type": 100011, 
+                    "args_list": [
+                        {
+                            "arg_type": 100011, 
+                            "args_list": [
+                                [
+                                    "TABLE", 
+                                    "UI_Manager"
+                                ]
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "SelectSingleUnitShow"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "GET_TABLE_TABLE_VAR_1D"
+                }, 
+                {
+                    "arg_type": 100070, 
+                    "args_list": [
+                        "f9e8128b-a83e-4b96-a9de-e369f75bc2d7"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1434706002000005, 
+            "enable": true, 
+            "op_arg": [
+                null
+            ], 
+            "op_arg_enable": [
+                false
+            ]
+        }, 
+        {
+            "action_type": "INSERT_TABLE_VALUE", 
+            "args_list": [
+                {
+                    "arg_type": 100011, 
+                    "args_list": [
+                        {
+                            "arg_type": 100011, 
+                            "args_list": [
+                                [
+                                    "TABLE", 
+                                    "UI_Manager"
+                                ]
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "SelectSingleUnitShow"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "GET_TABLE_TABLE_VAR_1D"
+                }, 
+                {
+                    "arg_type": 100070, 
+                    "args_list": [
+                        "0aa29805-0549-4de2-b1ec-3fb3263a448e"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1434706002000006, 
+            "enable": true, 
+            "op_arg": [
+                null
+            ], 
+            "op_arg_enable": [
+                false
+            ]
+        }, 
+        {
+            "action_type": "INSERT_TABLE_VALUE", 
+            "args_list": [
+                {
+                    "arg_type": 100011, 
+                    "args_list": [
+                        {
+                            "arg_type": 100011, 
+                            "args_list": [
+                                [
+                                    "TABLE", 
+                                    "UI_Manager"
+                                ]
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "SelectSingleUnitShow"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "GET_TABLE_TABLE_VAR_1D"
+                }, 
+                {
+                    "arg_type": 100070, 
+                    "args_list": [
+                        "8ae9b7da-6a49-4846-bfb9-a389fcb00161"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1434706002000007, 
+            "enable": true, 
+            "op_arg": [
+                null
+            ], 
+            "op_arg_enable": [
+                false
+            ]
+        }, 
+        {
+            "action_type": "INSERT_TABLE_VALUE", 
+            "args_list": [
+                {
+                    "arg_type": 100011, 
+                    "args_list": [
+                        {
+                            "arg_type": 100011, 
+                            "args_list": [
+                                [
+                                    "TABLE", 
+                                    "UI_Manager"
+                                ]
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "SelectSingleUnitShow"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "GET_TABLE_TABLE_VAR_1D"
+                }, 
+                {
+                    "arg_type": 100070, 
+                    "args_list": [
+                        "630af8fa-b70d-49a3-accd-f307f4a15e4c"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1434706002000008, 
+            "enable": true, 
+            "op_arg": [
+                null
+            ], 
+            "op_arg_enable": [
+                false
+            ]
+        }, 
+        {
+            "action_type": "INSERT_TABLE_VALUE", 
+            "args_list": [
+                {
+                    "arg_type": 100011, 
+                    "args_list": [
+                        {
+                            "arg_type": 100011, 
+                            "args_list": [
+                                [
+                                    "TABLE", 
+                                    "UI_Manager"
+                                ]
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "SelectSingleUnitShow"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "GET_TABLE_TABLE_VAR_1D"
+                }, 
+                {
+                    "arg_type": 100070, 
+                    "args_list": [
+                        "e0268105-a256-4ffa-87b7-975d9533c25b"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1434706002000009, 
+            "enable": true, 
+            "op_arg": [
+                null
+            ], 
+            "op_arg_enable": [
+                false
+            ]
+        }, 
+        {
+            "action_type": "INSERT_TABLE_VALUE", 
+            "args_list": [
+                {
+                    "arg_type": 100011, 
+                    "args_list": [
+                        {
+                            "arg_type": 100011, 
+                            "args_list": [
+                                [
+                                    "TABLE", 
+                                    "UI_Manager"
+                                ]
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "SelectSingleUnitShow"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "GET_TABLE_TABLE_VAR_1D"
+                }, 
+                {
+                    "arg_type": 100070, 
+                    "args_list": [
+                        "05a005cb-9a6a-49d8-930f-a8887df8fe5f"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1434706002000010, 
+            "enable": true, 
+            "op_arg": [
+                null
+            ], 
+            "op_arg_enable": [
+                false
+            ]
+        }, 
+        {
+            "action_type": "INSERT_TABLE_VALUE", 
+            "args_list": [
+                {
+                    "arg_type": 100011, 
+                    "args_list": [
+                        {
+                            "arg_type": 100011, 
+                            "args_list": [
+                                [
+                                    "TABLE", 
+                                    "UI_Manager"
+                                ]
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "SelectSingleUnitShow"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "GET_TABLE_TABLE_VAR_1D"
+                }, 
+                {
+                    "arg_type": 100070, 
+                    "args_list": [
+                        "8948d8de-ad63-4749-bede-059e0023a99a"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1434706002000011, 
+            "enable": true, 
+            "op_arg": [
+                null
+            ], 
+            "op_arg_enable": [
+                false
+            ]
+        }, 
+        {
+            "action_type": "INSERT_TABLE_VALUE", 
+            "args_list": [
+                {
+                    "arg_type": 100011, 
+                    "args_list": [
+                        {
+                            "arg_type": 100011, 
+                            "args_list": [
+                                [
+                                    "TABLE", 
+                                    "UI_Manager"
+                                ]
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "SelectSingleUnitShow"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "GET_TABLE_TABLE_VAR_1D"
+                }, 
+                {
+                    "arg_type": 100070, 
+                    "args_list": [
+                        "c4a1f7bc-69b3-42df-b5f7-c6557af7aa9e"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1434706002000012, 
+            "enable": true, 
+            "op_arg": [
+                null
+            ], 
+            "op_arg_enable": [
+                false
+            ]
+        }, 
+        {
+            "action_type": "INSERT_TABLE_VALUE", 
+            "args_list": [
+                {
+                    "arg_type": 100011, 
+                    "args_list": [
+                        {
+                            "arg_type": 100011, 
+                            "args_list": [
+                                [
+                                    "TABLE", 
+                                    "UI_Manager"
+                                ]
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "SelectSingleUnitShow"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "GET_TABLE_TABLE_VAR_1D"
+                }, 
+                {
+                    "arg_type": 100070, 
+                    "args_list": [
+                        "fc689660-4284-4263-ad9e-f6c559bcca49"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1434706002000013, 
+            "enable": true, 
+            "op_arg": [
+                null
+            ], 
+            "op_arg_enable": [
+                false
+            ]
+        }, 
+        {
+            "action_type": "SET_TABLE_VALUE_1D", 
+            "args_list": [
+                {
+                    "arg_type": 100011, 
+                    "args_list": [
+                        [
+                            "TABLE", 
+                            "UI_Manager"
+                        ]
+                    ], 
+                    "sub_type": "VARIABLE"
+                }, 
+                {
+                    "arg_type": 100003, 
+                    "args_list": [
+                        "SelectSingleUnitHide"
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100011, 
+                    "args_list": [], 
+                    "sub_type": "GET_NEW_TABLE"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1434706002000014, 
+            "enable": true
+        }, 
+        {
+            "action_type": "INSERT_TABLE_VALUE", 
+            "args_list": [
+                {
+                    "arg_type": 100011, 
+                    "args_list": [
+                        {
+                            "arg_type": 100011, 
+                            "args_list": [
+                                [
+                                    "TABLE", 
+                                    "UI_Manager"
+                                ]
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "SelectSingleUnitHide"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "GET_TABLE_TABLE_VAR_1D"
+                }, 
+                {
+                    "arg_type": 100070, 
+                    "args_list": [
+                        "777c690d-e979-4cc8-8d2a-780ecd8b45b5"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1434706002000015, 
+            "enable": true, 
+            "op_arg": [
+                null
+            ], 
+            "op_arg_enable": [
+                false
+            ]
+        }, 
+        {
+            "action_type": "INSERT_TABLE_VALUE", 
+            "args_list": [
+                {
+                    "arg_type": 100011, 
+                    "args_list": [
+                        {
+                            "arg_type": 100011, 
+                            "args_list": [
+                                [
+                                    "TABLE", 
+                                    "UI_Manager"
+                                ]
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "SelectSingleUnitHide"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "GET_TABLE_TABLE_VAR_1D"
+                }, 
+                {
+                    "arg_type": 100070, 
+                    "args_list": [
+                        "de2e2ac0-9bf8-4ce6-95e4-fb8b287655cc"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1434706002000016, 
+            "enable": true, 
+            "op_arg": [
+                null
+            ], 
+            "op_arg_enable": [
+                false
+            ]
+        }, 
+        {
+            "action_type": "INSERT_TABLE_VALUE", 
+            "args_list": [
+                {
+                    "arg_type": 100011, 
+                    "args_list": [
+                        {
+                            "arg_type": 100011, 
+                            "args_list": [
+                                [
+                                    "TABLE", 
+                                    "UI_Manager"
+                                ]
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "SelectSingleUnitHide"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "GET_TABLE_TABLE_VAR_1D"
+                }, 
+                {
+                    "arg_type": 100070, 
+                    "args_list": [
+                        "9d39b68f-112c-4f22-bc69-22682e25de07"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1434706002000017, 
+            "enable": true, 
+            "op_arg": [
+                null
+            ], 
+            "op_arg_enable": [
+                false
+            ]
+        }, 
+        {
+            "action_type": "SET_TABLE_VALUE_1D", 
+            "args_list": [
+                {
+                    "arg_type": 100011, 
+                    "args_list": [
+                        [
+                            "TABLE", 
+                            "UI_Manager"
+                        ]
+                    ], 
+                    "sub_type": "VARIABLE"
+                }, 
+                {
+                    "arg_type": 100003, 
+                    "args_list": [
+                        "SelectMutiUnitShow"
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100011, 
+                    "args_list": [], 
+                    "sub_type": "GET_NEW_TABLE"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1434706002000018, 
+            "enable": true
+        }, 
+        {
+            "action_type": "INSERT_TABLE_VALUE", 
+            "args_list": [
+                {
+                    "arg_type": 100011, 
+                    "args_list": [
+                        {
+                            "arg_type": 100011, 
+                            "args_list": [
+                                [
+                                    "TABLE", 
+                                    "UI_Manager"
+                                ]
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "SelectMutiUnitShow"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "GET_TABLE_TABLE_VAR_1D"
+                }, 
+                {
+                    "arg_type": 100070, 
+                    "args_list": [
+                        "f9e8128b-a83e-4b96-a9de-e369f75bc2d7"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1434706002000019, 
+            "enable": true, 
+            "op_arg": [
+                null
+            ], 
+            "op_arg_enable": [
+                false
+            ]
+        }, 
+        {
+            "action_type": "INSERT_TABLE_VALUE", 
+            "args_list": [
+                {
+                    "arg_type": 100011, 
+                    "args_list": [
+                        {
+                            "arg_type": 100011, 
+                            "args_list": [
+                                [
+                                    "TABLE", 
+                                    "UI_Manager"
+                                ]
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "SelectMutiUnitShow"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "GET_TABLE_TABLE_VAR_1D"
+                }, 
+                {
+                    "arg_type": 100070, 
+                    "args_list": [
+                        "777c690d-e979-4cc8-8d2a-780ecd8b45b5"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1434706002000020, 
+            "enable": true, 
+            "op_arg": [
+                null
+            ], 
+            "op_arg_enable": [
+                false
+            ]
+        }, 
+        {
+            "action_type": "INSERT_TABLE_VALUE", 
+            "args_list": [
+                {
+                    "arg_type": 100011, 
+                    "args_list": [
+                        {
+                            "arg_type": 100011, 
+                            "args_list": [
+                                [
+                                    "TABLE", 
+                                    "UI_Manager"
+                                ]
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "SelectMutiUnitShow"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "GET_TABLE_TABLE_VAR_1D"
+                }, 
+                {
+                    "arg_type": 100070, 
+                    "args_list": [
+                        "8ae9b7da-6a49-4846-bfb9-a389fcb00161"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1434706002000021, 
+            "enable": true, 
+            "op_arg": [
+                null
+            ], 
+            "op_arg_enable": [
+                false
+            ]
+        }, 
+        {
+            "action_type": "INSERT_TABLE_VALUE", 
+            "args_list": [
+                {
+                    "arg_type": 100011, 
+                    "args_list": [
+                        {
+                            "arg_type": 100011, 
+                            "args_list": [
+                                [
+                                    "TABLE", 
+                                    "UI_Manager"
+                                ]
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "SelectMutiUnitShow"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "GET_TABLE_TABLE_VAR_1D"
+                }, 
+                {
+                    "arg_type": 100070, 
+                    "args_list": [
+                        "630af8fa-b70d-49a3-accd-f307f4a15e4c"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1434706002000022, 
+            "enable": true, 
+            "op_arg": [
+                null
+            ], 
+            "op_arg_enable": [
+                false
+            ]
+        }, 
+        {
+            "action_type": "INSERT_TABLE_VALUE", 
+            "args_list": [
+                {
+                    "arg_type": 100011, 
+                    "args_list": [
+                        {
+                            "arg_type": 100011, 
+                            "args_list": [
+                                [
+                                    "TABLE", 
+                                    "UI_Manager"
+                                ]
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "SelectMutiUnitShow"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "GET_TABLE_TABLE_VAR_1D"
+                }, 
+                {
+                    "arg_type": 100070, 
+                    "args_list": [
+                        "e0268105-a256-4ffa-87b7-975d9533c25b"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1434706002000023, 
+            "enable": true, 
+            "op_arg": [
+                null
+            ], 
+            "op_arg_enable": [
+                false
+            ]
+        }, 
+        {
+            "action_type": "INSERT_TABLE_VALUE", 
+            "args_list": [
+                {
+                    "arg_type": 100011, 
+                    "args_list": [
+                        {
+                            "arg_type": 100011, 
+                            "args_list": [
+                                [
+                                    "TABLE", 
+                                    "UI_Manager"
+                                ]
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "SelectMutiUnitShow"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "GET_TABLE_TABLE_VAR_1D"
+                }, 
+                {
+                    "arg_type": 100070, 
+                    "args_list": [
+                        "05a005cb-9a6a-49d8-930f-a8887df8fe5f"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1434706002000024, 
+            "enable": true, 
+            "op_arg": [
+                null
+            ], 
+            "op_arg_enable": [
+                false
+            ]
+        }, 
+        {
+            "action_type": "INSERT_TABLE_VALUE", 
+            "args_list": [
+                {
+                    "arg_type": 100011, 
+                    "args_list": [
+                        {
+                            "arg_type": 100011, 
+                            "args_list": [
+                                [
+                                    "TABLE", 
+                                    "UI_Manager"
+                                ]
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "SelectMutiUnitShow"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "GET_TABLE_TABLE_VAR_1D"
+                }, 
+                {
+                    "arg_type": 100070, 
+                    "args_list": [
+                        "8948d8de-ad63-4749-bede-059e0023a99a"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1434706002000025, 
+            "enable": true, 
+            "op_arg": [
+                null
+            ], 
+            "op_arg_enable": [
+                false
+            ]
+        }, 
+        {
+            "action_type": "SET_TABLE_VALUE_1D", 
+            "args_list": [
+                {
+                    "arg_type": 100011, 
+                    "args_list": [
+                        [
+                            "TABLE", 
+                            "UI_Manager"
+                        ]
+                    ], 
+                    "sub_type": "VARIABLE"
+                }, 
+                {
+                    "arg_type": 100003, 
+                    "args_list": [
+                        "SelectMutiUnitHide"
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100011, 
+                    "args_list": [], 
+                    "sub_type": "GET_NEW_TABLE"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1434706002000026, 
+            "enable": true
+        }, 
+        {
+            "action_type": "INSERT_TABLE_VALUE", 
+            "args_list": [
+                {
+                    "arg_type": 100011, 
+                    "args_list": [
+                        {
+                            "arg_type": 100011, 
+                            "args_list": [
+                                [
+                                    "TABLE", 
+                                    "UI_Manager"
+                                ]
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "SelectMutiUnitHide"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "GET_TABLE_TABLE_VAR_1D"
+                }, 
+                {
+                    "arg_type": 100070, 
+                    "args_list": [
+                        "0aa29805-0549-4de2-b1ec-3fb3263a448e"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1434706002000027, 
+            "enable": true, 
+            "op_arg": [
+                null
+            ], 
+            "op_arg_enable": [
+                false
+            ]
+        }, 
+        {
+            "action_type": "INSERT_TABLE_VALUE", 
+            "args_list": [
+                {
+                    "arg_type": 100011, 
+                    "args_list": [
+                        {
+                            "arg_type": 100011, 
+                            "args_list": [
+                                [
+                                    "TABLE", 
+                                    "UI_Manager"
+                                ]
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "SelectMutiUnitHide"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "GET_TABLE_TABLE_VAR_1D"
+                }, 
+                {
+                    "arg_type": 100070, 
+                    "args_list": [
+                        "de2e2ac0-9bf8-4ce6-95e4-fb8b287655cc"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1434706002000028, 
+            "enable": true, 
+            "op_arg": [
+                null
+            ], 
+            "op_arg_enable": [
+                false
+            ]
+        }, 
+        {
+            "action_type": "INSERT_TABLE_VALUE", 
+            "args_list": [
+                {
+                    "arg_type": 100011, 
+                    "args_list": [
+                        {
+                            "arg_type": 100011, 
+                            "args_list": [
+                                [
+                                    "TABLE", 
+                                    "UI_Manager"
+                                ]
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "SelectMutiUnitHide"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "GET_TABLE_TABLE_VAR_1D"
+                }, 
+                {
+                    "arg_type": 100070, 
+                    "args_list": [
+                        "9d39b68f-112c-4f22-bc69-22682e25de07"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1434706002000029, 
+            "enable": true, 
+            "op_arg": [
+                null
+            ], 
+            "op_arg_enable": [
+                false
+            ]
+        }, 
+        {
+            "action_type": "SET_TABLE_VALUE_1D", 
+            "args_list": [
+                {
+                    "arg_type": 100011, 
+                    "args_list": [
+                        [
+                            "TABLE", 
+                            "UI_Manager"
+                        ]
+                    ], 
+                    "sub_type": "VARIABLE"
+                }, 
+                {
+                    "arg_type": 100003, 
+                    "args_list": [
+                        "SelectItemShow"
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100011, 
+                    "args_list": [], 
+                    "sub_type": "GET_NEW_TABLE"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1434706002000030, 
+            "enable": true
+        }, 
+        {
+            "action_type": "INSERT_TABLE_VALUE", 
+            "args_list": [
+                {
+                    "arg_type": 100011, 
+                    "args_list": [
+                        {
+                            "arg_type": 100011, 
+                            "args_list": [
+                                [
+                                    "TABLE", 
+                                    "UI_Manager"
+                                ]
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "SelectItemShow"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "GET_TABLE_TABLE_VAR_1D"
+                }, 
+                {
+                    "arg_type": 100070, 
+                    "args_list": [
+                        "f9e8128b-a83e-4b96-a9de-e369f75bc2d7"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1434706002000031, 
+            "enable": true, 
+            "op_arg": [
+                null
+            ], 
+            "op_arg_enable": [
+                false
+            ]
+        }, 
+        {
+            "action_type": "INSERT_TABLE_VALUE", 
+            "args_list": [
+                {
+                    "arg_type": 100011, 
+                    "args_list": [
+                        {
+                            "arg_type": 100011, 
+                            "args_list": [
+                                [
+                                    "TABLE", 
+                                    "UI_Manager"
+                                ]
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "SelectItemShow"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "GET_TABLE_TABLE_VAR_1D"
+                }, 
+                {
+                    "arg_type": 100070, 
+                    "args_list": [
+                        "de2e2ac0-9bf8-4ce6-95e4-fb8b287655cc"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1434706002000032, 
+            "enable": true, 
+            "op_arg": [
+                null
+            ], 
+            "op_arg_enable": [
+                false
+            ]
+        }, 
+        {
+            "action_type": "INSERT_TABLE_VALUE", 
+            "args_list": [
+                {
+                    "arg_type": 100011, 
+                    "args_list": [
+                        {
+                            "arg_type": 100011, 
+                            "args_list": [
+                                [
+                                    "TABLE", 
+                                    "UI_Manager"
+                                ]
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "SelectItemShow"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "GET_TABLE_TABLE_VAR_1D"
+                }, 
+                {
+                    "arg_type": 100070, 
+                    "args_list": [
+                        "630af8fa-b70d-49a3-accd-f307f4a15e4c"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1434706002000033, 
+            "enable": true, 
+            "op_arg": [
+                null
+            ], 
+            "op_arg_enable": [
+                false
+            ]
+        }, 
+        {
+            "action_type": "SET_TABLE_VALUE_1D", 
+            "args_list": [
+                {
+                    "arg_type": 100011, 
+                    "args_list": [
+                        [
+                            "TABLE", 
+                            "UI_Manager"
+                        ]
+                    ], 
+                    "sub_type": "VARIABLE"
+                }, 
+                {
+                    "arg_type": 100003, 
+                    "args_list": [
+                        "SelectItemHide"
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100011, 
+                    "args_list": [], 
+                    "sub_type": "GET_NEW_TABLE"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1434706002000034, 
+            "enable": true
+        }, 
+        {
+            "action_type": "INSERT_TABLE_VALUE", 
+            "args_list": [
+                {
+                    "arg_type": 100011, 
+                    "args_list": [
+                        {
+                            "arg_type": 100011, 
+                            "args_list": [
+                                [
+                                    "TABLE", 
+                                    "UI_Manager"
+                                ]
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "SelectItemHide"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "GET_TABLE_TABLE_VAR_1D"
+                }, 
+                {
+                    "arg_type": 100070, 
+                    "args_list": [
+                        "0aa29805-0549-4de2-b1ec-3fb3263a448e"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1434706002000035, 
+            "enable": true, 
+            "op_arg": [
+                null
+            ], 
+            "op_arg_enable": [
+                false
+            ]
+        }, 
+        {
+            "action_type": "INSERT_TABLE_VALUE", 
+            "args_list": [
+                {
+                    "arg_type": 100011, 
+                    "args_list": [
+                        {
+                            "arg_type": 100011, 
+                            "args_list": [
+                                [
+                                    "TABLE", 
+                                    "UI_Manager"
+                                ]
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "SelectItemHide"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "GET_TABLE_TABLE_VAR_1D"
+                }, 
+                {
+                    "arg_type": 100070, 
+                    "args_list": [
+                        "777c690d-e979-4cc8-8d2a-780ecd8b45b5"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1434706002000036, 
+            "enable": true, 
+            "op_arg": [
+                null
+            ], 
+            "op_arg_enable": [
+                false
+            ]
+        }, 
+        {
+            "action_type": "INSERT_TABLE_VALUE", 
+            "args_list": [
+                {
+                    "arg_type": 100011, 
+                    "args_list": [
+                        {
+                            "arg_type": 100011, 
+                            "args_list": [
+                                [
+                                    "TABLE", 
+                                    "UI_Manager"
+                                ]
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "SelectItemHide"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "GET_TABLE_TABLE_VAR_1D"
+                }, 
+                {
+                    "arg_type": 100070, 
+                    "args_list": [
+                        "9d39b68f-112c-4f22-bc69-22682e25de07"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1434706002000037, 
+            "enable": true, 
+            "op_arg": [
+                null
+            ], 
+            "op_arg_enable": [
+                false
+            ]
+        }, 
+        {
+            "action_type": "INSERT_TABLE_VALUE", 
+            "args_list": [
+                {
+                    "arg_type": 100011, 
+                    "args_list": [
+                        {
+                            "arg_type": 100011, 
+                            "args_list": [
+                                [
+                                    "TABLE", 
+                                    "UI_Manager"
+                                ]
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "SelectItemHide"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "GET_TABLE_TABLE_VAR_1D"
+                }, 
+                {
+                    "arg_type": 100070, 
+                    "args_list": [
+                        "8ae9b7da-6a49-4846-bfb9-a389fcb00161"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1434706002000038, 
+            "enable": true, 
+            "op_arg": [
+                null
+            ], 
+            "op_arg_enable": [
+                false
+            ]
+        }, 
+        {
+            "action_type": "INSERT_TABLE_VALUE", 
+            "args_list": [
+                {
+                    "arg_type": 100011, 
+                    "args_list": [
+                        {
+                            "arg_type": 100011, 
+                            "args_list": [
+                                [
+                                    "TABLE", 
+                                    "UI_Manager"
+                                ]
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "SelectItemHide"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "GET_TABLE_TABLE_VAR_1D"
+                }, 
+                {
+                    "arg_type": 100070, 
+                    "args_list": [
+                        "e0268105-a256-4ffa-87b7-975d9533c25b"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1434706002000039, 
+            "enable": true, 
+            "op_arg": [
+                null
+            ], 
+            "op_arg_enable": [
+                false
+            ]
+        }, 
+        {
+            "action_type": "INSERT_TABLE_VALUE", 
+            "args_list": [
+                {
+                    "arg_type": 100011, 
+                    "args_list": [
+                        {
+                            "arg_type": 100011, 
+                            "args_list": [
+                                [
+                                    "TABLE", 
+                                    "UI_Manager"
+                                ]
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "SelectItemHide"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "GET_TABLE_TABLE_VAR_1D"
+                }, 
+                {
+                    "arg_type": 100070, 
+                    "args_list": [
+                        "05a005cb-9a6a-49d8-930f-a8887df8fe5f"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1434706002000040, 
+            "enable": true, 
+            "op_arg": [
+                null
+            ], 
+            "op_arg_enable": [
+                false
+            ]
+        }, 
+        {
+            "action_type": "INSERT_TABLE_VALUE", 
+            "args_list": [
+                {
+                    "arg_type": 100011, 
+                    "args_list": [
+                        {
+                            "arg_type": 100011, 
+                            "args_list": [
+                                [
+                                    "TABLE", 
+                                    "UI_Manager"
+                                ]
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "SelectItemHide"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "GET_TABLE_TABLE_VAR_1D"
+                }, 
+                {
+                    "arg_type": 100070, 
+                    "args_list": [
+                        "8948d8de-ad63-4749-bede-059e0023a99a"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1434706002000041, 
+            "enable": true, 
+            "op_arg": [
+                null
+            ], 
+            "op_arg_enable": [
+                false
+            ]
+        }, 
+        {
+            "action_type": "INSERT_TABLE_VALUE", 
+            "args_list": [
+                {
+                    "arg_type": 100011, 
+                    "args_list": [
+                        {
+                            "arg_type": 100011, 
+                            "args_list": [
+                                [
+                                    "TABLE", 
+                                    "UI_Manager"
+                                ]
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "SelectItemHide"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "GET_TABLE_TABLE_VAR_1D"
+                }, 
+                {
+                    "arg_type": 100070, 
+                    "args_list": [
+                        "ad8be07d-533f-494c-a3b6-a33b2fac4318"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1434706002000042, 
+            "enable": true, 
+            "op_arg": [
+                null
+            ], 
+            "op_arg_enable": [
+                false
+            ]
+        }, 
+        {
+            "action_type": "INSERT_TABLE_VALUE", 
+            "args_list": [
+                {
+                    "arg_type": 100011, 
+                    "args_list": [
+                        {
+                            "arg_type": 100011, 
+                            "args_list": [
+                                [
+                                    "TABLE", 
+                                    "UI_Manager"
+                                ]
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "SelectItemHide"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "GET_TABLE_TABLE_VAR_1D"
+                }, 
+                {
+                    "arg_type": 100070, 
+                    "args_list": [
+                        "c95da538-d261-4358-a10a-02f5c95ae41d"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1434706002000043, 
+            "enable": true, 
+            "op_arg": [
+                null
+            ], 
+            "op_arg_enable": [
+                false
+            ]
+        }, 
+        {
+            "action_type": "INSERT_TABLE_VALUE", 
+            "args_list": [
+                {
+                    "arg_type": 100011, 
+                    "args_list": [
+                        {
+                            "arg_type": 100011, 
+                            "args_list": [
+                                [
+                                    "TABLE", 
+                                    "UI_Manager"
+                                ]
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "SelectItemHide"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "GET_TABLE_TABLE_VAR_1D"
+                }, 
+                {
+                    "arg_type": 100070, 
+                    "args_list": [
+                        "c4a1f7bc-69b3-42df-b5f7-c6557af7aa9e"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1434706002000044, 
+            "enable": true, 
+            "op_arg": [
+                null
+            ], 
+            "op_arg_enable": [
+                false
+            ]
+        }, 
+        {
+            "action_type": "INSERT_TABLE_VALUE", 
+            "args_list": [
+                {
+                    "arg_type": 100011, 
+                    "args_list": [
+                        {
+                            "arg_type": 100011, 
+                            "args_list": [
+                                [
+                                    "TABLE", 
+                                    "UI_Manager"
+                                ]
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "SelectItemHide"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "GET_TABLE_TABLE_VAR_1D"
+                }, 
+                {
+                    "arg_type": 100070, 
+                    "args_list": [
+                        "fc689660-4284-4263-ad9e-f6c559bcca49"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1434706002000045, 
+            "enable": true, 
+            "op_arg": [
+                null
+            ], 
+            "op_arg_enable": [
+                false
+            ]
+        }, 
+        {
+            "action_type": "SET_TABLE_VALUE_1D", 
+            "args_list": [
+                {
+                    "arg_type": 100011, 
+                    "args_list": [
+                        [
+                            "TABLE", 
+                            "UI_Manager"
+                        ]
+                    ], 
+                    "sub_type": "VARIABLE"
+                }, 
+                {
+                    "arg_type": 100003, 
+                    "args_list": [
+                        "SelectDestructibleShow"
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100011, 
+                    "args_list": [], 
+                    "sub_type": "GET_NEW_TABLE"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1434706002000046, 
+            "enable": true
+        }, 
+        {
+            "action_type": "INSERT_TABLE_VALUE", 
+            "args_list": [
+                {
+                    "arg_type": 100011, 
+                    "args_list": [
+                        {
+                            "arg_type": 100011, 
+                            "args_list": [
+                                [
+                                    "TABLE", 
+                                    "UI_Manager"
+                                ]
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "SelectDestructibleShow"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "GET_TABLE_TABLE_VAR_1D"
+                }, 
+                {
+                    "arg_type": 100070, 
+                    "args_list": [
+                        "f9e8128b-a83e-4b96-a9de-e369f75bc2d7"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1434706002000047, 
+            "enable": true, 
+            "op_arg": [
+                null
+            ], 
+            "op_arg_enable": [
+                false
+            ]
+        }, 
+        {
+            "action_type": "INSERT_TABLE_VALUE", 
+            "args_list": [
+                {
+                    "arg_type": 100011, 
+                    "args_list": [
+                        {
+                            "arg_type": 100011, 
+                            "args_list": [
+                                [
+                                    "TABLE", 
+                                    "UI_Manager"
+                                ]
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "SelectDestructibleShow"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "GET_TABLE_TABLE_VAR_1D"
+                }, 
+                {
+                    "arg_type": 100070, 
+                    "args_list": [
+                        "9d39b68f-112c-4f22-bc69-22682e25de07"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1434706002000048, 
+            "enable": true, 
+            "op_arg": [
+                null
+            ], 
+            "op_arg_enable": [
+                false
+            ]
+        }, 
+        {
+            "action_type": "INSERT_TABLE_VALUE", 
+            "args_list": [
+                {
+                    "arg_type": 100011, 
+                    "args_list": [
+                        {
+                            "arg_type": 100011, 
+                            "args_list": [
+                                [
+                                    "TABLE", 
+                                    "UI_Manager"
+                                ]
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "SelectDestructibleShow"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "GET_TABLE_TABLE_VAR_1D"
+                }, 
+                {
+                    "arg_type": 100070, 
+                    "args_list": [
+                        "630af8fa-b70d-49a3-accd-f307f4a15e4c"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1434706002000049, 
+            "enable": true, 
+            "op_arg": [
+                null
+            ], 
+            "op_arg_enable": [
+                false
+            ]
+        }, 
+        {
+            "action_type": "SET_TABLE_VALUE_1D", 
+            "args_list": [
+                {
+                    "arg_type": 100011, 
+                    "args_list": [
+                        [
+                            "TABLE", 
+                            "UI_Manager"
+                        ]
+                    ], 
+                    "sub_type": "VARIABLE"
+                }, 
+                {
+                    "arg_type": 100003, 
+                    "args_list": [
+                        "SelectDestructibleHide"
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100011, 
+                    "args_list": [], 
+                    "sub_type": "GET_NEW_TABLE"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1434706002000050, 
+            "enable": true
+        }, 
+        {
+            "action_type": "INSERT_TABLE_VALUE", 
+            "args_list": [
+                {
+                    "arg_type": 100011, 
+                    "args_list": [
+                        {
+                            "arg_type": 100011, 
+                            "args_list": [
+                                [
+                                    "TABLE", 
+                                    "UI_Manager"
+                                ]
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "SelectDestructibleHide"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "GET_TABLE_TABLE_VAR_1D"
+                }, 
+                {
+                    "arg_type": 100070, 
+                    "args_list": [
+                        "0aa29805-0549-4de2-b1ec-3fb3263a448e"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1434706002000051, 
+            "enable": true, 
+            "op_arg": [
+                null
+            ], 
+            "op_arg_enable": [
+                false
+            ]
+        }, 
+        {
+            "action_type": "INSERT_TABLE_VALUE", 
+            "args_list": [
+                {
+                    "arg_type": 100011, 
+                    "args_list": [
+                        {
+                            "arg_type": 100011, 
+                            "args_list": [
+                                [
+                                    "TABLE", 
+                                    "UI_Manager"
+                                ]
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "SelectDestructibleHide"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "GET_TABLE_TABLE_VAR_1D"
+                }, 
+                {
+                    "arg_type": 100070, 
+                    "args_list": [
+                        "777c690d-e979-4cc8-8d2a-780ecd8b45b5"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1434706002000052, 
+            "enable": true, 
+            "op_arg": [
+                null
+            ], 
+            "op_arg_enable": [
+                false
+            ]
+        }, 
+        {
+            "action_type": "INSERT_TABLE_VALUE", 
+            "args_list": [
+                {
+                    "arg_type": 100011, 
+                    "args_list": [
+                        {
+                            "arg_type": 100011, 
+                            "args_list": [
+                                [
+                                    "TABLE", 
+                                    "UI_Manager"
+                                ]
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "SelectDestructibleHide"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "GET_TABLE_TABLE_VAR_1D"
+                }, 
+                {
+                    "arg_type": 100070, 
+                    "args_list": [
+                        "de2e2ac0-9bf8-4ce6-95e4-fb8b287655cc"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1434706002000053, 
+            "enable": true, 
+            "op_arg": [
+                null
+            ], 
+            "op_arg_enable": [
+                false
+            ]
+        }, 
+        {
+            "action_type": "INSERT_TABLE_VALUE", 
+            "args_list": [
+                {
+                    "arg_type": 100011, 
+                    "args_list": [
+                        {
+                            "arg_type": 100011, 
+                            "args_list": [
+                                [
+                                    "TABLE", 
+                                    "UI_Manager"
+                                ]
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "SelectDestructibleHide"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "GET_TABLE_TABLE_VAR_1D"
+                }, 
+                {
+                    "arg_type": 100070, 
+                    "args_list": [
+                        "8ae9b7da-6a49-4846-bfb9-a389fcb00161"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1434706002000054, 
+            "enable": true, 
+            "op_arg": [
+                null
+            ], 
+            "op_arg_enable": [
+                false
+            ]
+        }, 
+        {
+            "action_type": "INSERT_TABLE_VALUE", 
+            "args_list": [
+                {
+                    "arg_type": 100011, 
+                    "args_list": [
+                        {
+                            "arg_type": 100011, 
+                            "args_list": [
+                                [
+                                    "TABLE", 
+                                    "UI_Manager"
+                                ]
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "SelectDestructibleHide"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "GET_TABLE_TABLE_VAR_1D"
+                }, 
+                {
+                    "arg_type": 100070, 
+                    "args_list": [
+                        "e0268105-a256-4ffa-87b7-975d9533c25b"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1434706002000055, 
+            "enable": true, 
+            "op_arg": [
+                null
+            ], 
+            "op_arg_enable": [
+                false
+            ]
+        }, 
+        {
+            "action_type": "INSERT_TABLE_VALUE", 
+            "args_list": [
+                {
+                    "arg_type": 100011, 
+                    "args_list": [
+                        {
+                            "arg_type": 100011, 
+                            "args_list": [
+                                [
+                                    "TABLE", 
+                                    "UI_Manager"
+                                ]
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "SelectDestructibleHide"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "GET_TABLE_TABLE_VAR_1D"
+                }, 
+                {
+                    "arg_type": 100070, 
+                    "args_list": [
+                        "05a005cb-9a6a-49d8-930f-a8887df8fe5f"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1434706002000056, 
+            "enable": true, 
+            "op_arg": [
+                null
+            ], 
+            "op_arg_enable": [
+                false
+            ]
+        }, 
+        {
+            "action_type": "INSERT_TABLE_VALUE", 
+            "args_list": [
+                {
+                    "arg_type": 100011, 
+                    "args_list": [
+                        {
+                            "arg_type": 100011, 
+                            "args_list": [
+                                [
+                                    "TABLE", 
+                                    "UI_Manager"
+                                ]
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "SelectDestructibleHide"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "GET_TABLE_TABLE_VAR_1D"
+                }, 
+                {
+                    "arg_type": 100070, 
+                    "args_list": [
+                        "8948d8de-ad63-4749-bede-059e0023a99a"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1434706002000057, 
+            "enable": true, 
+            "op_arg": [
+                null
+            ], 
+            "op_arg_enable": [
+                false
+            ]
+        }, 
+        {
+            "action_type": "INSERT_TABLE_VALUE", 
+            "args_list": [
+                {
+                    "arg_type": 100011, 
+                    "args_list": [
+                        {
+                            "arg_type": 100011, 
+                            "args_list": [
+                                [
+                                    "TABLE", 
+                                    "UI_Manager"
+                                ]
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "SelectDestructibleHide"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "GET_TABLE_TABLE_VAR_1D"
+                }, 
+                {
+                    "arg_type": 100070, 
+                    "args_list": [
+                        "ad8be07d-533f-494c-a3b6-a33b2fac4318"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1434706002000058, 
+            "enable": true, 
+            "op_arg": [
+                null
+            ], 
+            "op_arg_enable": [
+                false
+            ]
+        }, 
+        {
+            "action_type": "INSERT_TABLE_VALUE", 
+            "args_list": [
+                {
+                    "arg_type": 100011, 
+                    "args_list": [
+                        {
+                            "arg_type": 100011, 
+                            "args_list": [
+                                [
+                                    "TABLE", 
+                                    "UI_Manager"
+                                ]
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "SelectDestructibleHide"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "GET_TABLE_TABLE_VAR_1D"
+                }, 
+                {
+                    "arg_type": 100070, 
+                    "args_list": [
+                        "c95da538-d261-4358-a10a-02f5c95ae41d"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1434706002000059, 
+            "enable": true, 
+            "op_arg": [
+                null
+            ], 
+            "op_arg_enable": [
+                false
+            ]
+        }, 
+        {
+            "action_type": "INSERT_TABLE_VALUE", 
+            "args_list": [
+                {
+                    "arg_type": 100011, 
+                    "args_list": [
+                        {
+                            "arg_type": 100011, 
+                            "args_list": [
+                                [
+                                    "TABLE", 
+                                    "UI_Manager"
+                                ]
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "SelectDestructibleHide"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "GET_TABLE_TABLE_VAR_1D"
+                }, 
+                {
+                    "arg_type": 100070, 
+                    "args_list": [
+                        "c4a1f7bc-69b3-42df-b5f7-c6557af7aa9e"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1434706002000060, 
+            "enable": true, 
+            "op_arg": [
+                null
+            ], 
+            "op_arg_enable": [
+                false
+            ]
+        }, 
+        {
+            "action_type": "INSERT_TABLE_VALUE", 
+            "args_list": [
+                {
+                    "arg_type": 100011, 
+                    "args_list": [
+                        {
+                            "arg_type": 100011, 
+                            "args_list": [
+                                [
+                                    "TABLE", 
+                                    "UI_Manager"
+                                ]
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "SelectDestructibleHide"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "GET_TABLE_TABLE_VAR_1D"
+                }, 
+                {
+                    "arg_type": 100070, 
+                    "args_list": [
+                        "fc689660-4284-4263-ad9e-f6c559bcca49"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1434706002000061, 
+            "enable": true, 
+            "op_arg": [
+                null
+            ], 
+            "op_arg_enable": [
+                false
+            ]
+        }
+    ], 
+    "call_enabled": true, 
+    "condition": [], 
+    "enabled": true, 
+    "event": [
+        {
+            "args_list": [], 
+            "element_id": 1434706002000001, 
+            "enable": true, 
+            "event_type": "INIT_FINISHED"
+        }
+    ], 
+    "group_id": "k-yOwLG2Ee2YRwD-+E6xsS", 
+    "p_trigger_id": null, 
+    "trigger_id": 1434706002, 
+    "trigger_name": "\u521d\u59cb\u5316\u6570\u636e_import", 
+    "valid": true
+}

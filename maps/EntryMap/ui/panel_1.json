@@ -1,0 +1,35 @@
+{
+    "adapt_mode": 2, 
+    "anim_data": {}, 
+    "children": [
+        {
+            "children": [], 
+            "event_list": [], 
+            "name": "image_3", 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    733.2596435546875, 
+                    583.2596435546875
+                ]
+            }, 
+            "pos_percent": {
+                "__tuple__": true, 
+                "items": [
+                    38.190606435139976, 
+                    54.00552255135995
+                ]
+            }, 
+            "prefab_sub_key": null, 
+            "type": 4, 
+            "uid": "04f78e5d-8638-47f1-9a0b-c292f196b330"
+        }
+    ], 
+    "name": "panel_1", 
+    "opacity": 1.0, 
+    "type": 2, 
+    "ui_anims": [], 
+    "uid": "201e9100-bd59-4993-bf6d-2d1e5f9bb3c6", 
+    "visible": true, 
+    "zorder": 400
+}
